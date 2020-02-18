@@ -2,6 +2,6 @@ version: 1.2
 class: workflow
 workflows:
    - subclass: cwl
-     path: /dockstore.cwl
+     primaryDescriptorPath: /dockstore.cwl
      testPaths: /test/dockstore.cwl.json
      name: md5sum

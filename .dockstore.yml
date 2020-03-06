@@ -5,3 +5,8 @@ workflows:
      testParameterFiles:
      - /test/dockstore.cwl.json
      name: md5sum
+   - subclass: cwl
+     primaryDescriptorPath: /dockstore.cwl
+     testParameterFiles:
+     - /test/dockstore.cwl.json
+     name: foobar

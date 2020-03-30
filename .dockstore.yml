@@ -11,7 +11,7 @@ workflows:
      - /test/dockstore.cwl.json
      name: foobar
 services:
-  - type: docker-compose
+  - subclass: DOCKER-COMPOSE
     name: UCSC Xena Browser
     author: UCSC Genomics Institute
     description: |

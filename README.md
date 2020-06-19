@@ -1,5 +1,6 @@
 # md5sum-dockstore-yml
 # Testing
+Another test
 A simple md5sum workflow described with a dockstore.yml
 
 

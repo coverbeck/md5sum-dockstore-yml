@@ -1,6 +1,7 @@
 cwlVersion: v1.0
 class: Workflow
 
+# Demo!
 inputs:
   input_file: File
 

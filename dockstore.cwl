@@ -1,7 +1,7 @@
 cwlVersion: v1.0
 class: Workflow
 
-# Demo!
+# CGP Demo
 inputs:
   input_file: File
 

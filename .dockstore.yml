@@ -6,9 +6,12 @@ workflows:
      - /test/dockstore.cwl.json
      name: md5sum
      authors:
-       - orcid: 0000-0002-9079-593X
+     - orcid: 0000-0002-9079-593X
    - subclass: cwl
      primaryDescriptorPath: /dockstore.cwl
      testParameterFiles:
      - /test/dockstore.cwl.json
      name: foobar
+     authors:
+     - name: Charles Overbeck
+       email: notreal@fake.com

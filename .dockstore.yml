@@ -6,7 +6,7 @@ workflows:
      - /test/dockstore.cwl.json
      name: md5sum
      authors:
-     - orcid: 0000-0001-6656-2565
+     - orcid: 0000-0001-7641-7724
    - subclass: cwl
      primaryDescriptorPath: /dockstore.cwl
      testParameterFiles:

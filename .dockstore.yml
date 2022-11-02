@@ -1,12 +1,8 @@
 version: 1.2
 workflows:
-   - subclass: cwl
-     primaryDescriptorPath: /dockstore.cwl
-     testParameterFiles:
-     - /test/dockstore.cwl.json
+   - subclass: wdl
+     primaryDescriptorPath: /Dockstore.wdl
      name: md5sum
-     authors:
-     - orcid: 0000-0001-7641-7724
    - subclass: cwl
      primaryDescriptorPath: /dockstore.cwl
      testParameterFiles:

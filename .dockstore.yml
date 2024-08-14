@@ -15,3 +15,11 @@ workflows:
      authors:
      - name: Charles Overbeck
        email: notreal@fake.com
+   - subclass: cwl
+     primaryDescriptorPath: /dockstore.cwl
+     testParameterFiles:
+     - /test/dockstore.cwl.json
+     name: blah
+     authors:
+     - name: Charles Overbeck
+       email: notreal@fake.com

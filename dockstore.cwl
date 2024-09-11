@@ -1,6 +1,7 @@
 cwlVersion: v1.0
 class: Workflow
 
+# This line is a comment
 inputs:
   input_file: File
 

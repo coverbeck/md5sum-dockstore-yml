@@ -11,7 +11,7 @@ workflows:
      primaryDescriptorPath: /dockstore.cwl
      testParameterFiles:
      - /test/dockstore.cwl.json
-     name: Foobar
+     name: FooBar
      authors:
      - name: Charles Overbeck
        email: notreal@fake.com
